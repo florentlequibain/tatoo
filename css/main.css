@@ -104,6 +104,251 @@ textarea {
 = =                                                                       = =
    ========================================================================== */
 
+ @media (min-width: 320px)
+ {
+
+/* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~ */
+a
+{
+  text-decoration: none;
+}
+
+header .mainimagemobile
+{
+  display: none;
+}
+
+header nav
+{
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav a
+{
+  color: white;
+  font-size: 20px;
+}
+
+header .mainimagedesktop img
+{
+  width: 100%;
+  height: auto;
+}
+
+header .mainimagedesktop
+{
+  margin:0;
+  height: 100vh;
+  width: auto;
+}
+
+/* ~~~~~~~~~~~~~~~ END HEADER ~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~~ BANDEAU ~~~~~~~~~~~~~~~ */
+.mainbandeau img
+{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  margin-top: 0;
+}
+
+.mainbandeau
+{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+/* ~~~~~~~~~~~~~~~ END BANDEAU ~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~ SECTION ~~~~~~~~~~~~~~~ */
+.mainsectionaccueil
+{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mainsectionaccueil h2
+{
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainsectionaccueil hr
+{
+  width: 90%;
+  margin: auto;
+  background-color:rgba(128, 0, 0,1);
+  height: 2px;
+}
+
+
+.mainsectionaccueil .articlecontainer
+{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 20px;
+}
+
+.mainsectionaccueil .articlecontainer article
+{
+  width: 47%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.mainsectionaccueil .articlecontainer article figure img
+{
+  width:100%;
+  height: auto;
+}
+
+.mainsectionaccueil .articlecontainer article figure
+{
+  width: 70%;
+}
+
+.mainsectionaccueil .articlecontainer article h3
+{
+  font-size: 30px;
+}
+
+.mainsectionaccueil .articlecontainer article div
+{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  width: 300px;
+  background-color:white;
+  border-radius: 4px;
+}
+
+.mainsectionaccueil .articlecontainer article div figure img
+{
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.mainsectionaccueil .articlecontainer article div figure
+{
+  width: 25px;
+  height: auto;
+  margin: 0;
+}
+
+.mainsectionaccueil .articlecontainer article p
+{
+  width: 90%;
+  text-align: justify;
+}
+/* ~~~~~~~~~~~~~~~ END SECTION ~~~~~~~~~~~~~~~ */
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~ */
+footer
+{
+  margin-top: 20px;
+  background-color: black;
+  height: 200px;
+}
+
+footer div
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  margin:auto;
+}
+
+footer div a
+{
+  color: white;
+}
+
+}
+/* ~~~~~~~~~~~~~~~ END FOOTER ~~~~~~~~~~~~~~~ */
+
+
+@media (max-width: 320px)
+{
+  header .mainimagedesktop
+  {
+    display: none;
+  }
+
+header
+{
+  width: 100%;
+  margin: 0;
+}
+header .mainimagemobile
+{
+  display: block;
+  margin:0;
+  width: 100%;
+}
+
+header .mainimagemobile img
+{
+  width: 100%;
+  height: auto;
+}
+
+header nav
+{
+  flex-direction: column;
+  height: 400px;
+}
+
+header nav a
+{
+  font-size: 40px;
+}
+
+
+.mainbandeau
+{
+  display: none;
+}
+
+.mainsectionaccueil .articlecontainer
+{
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.mainsectionaccueil .articlecontainer article
+{
+  width: 95%;
+}
+
+.mainsectionaccueil .articlecontainer article div
+{
+  width: 280px;
+  margin: auto;
+}
+
+
+}
 
 
 
